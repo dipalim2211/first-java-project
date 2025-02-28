@@ -30,7 +30,7 @@ public class CalculatorTest {
         System.out.println("Result : "+result1);
 
         int result2 = cal.mul(10,10);
-        System.out.println("Result : "+result2);
+        System.out.println("Result : "+result2 );
 
     }
 
