@@ -9,6 +9,11 @@ class  Calculator{
     {
         return a-b;
     }
+
+    int mul(int a, int b)
+    {
+        return a*b;
+    }
 }
 
 
@@ -24,6 +29,8 @@ public class CalculatorTest {
         int result1 =cal.sub(10,5);
         System.out.println("Result : "+result1);
 
+        int result2 = cal.mul(10,10);
+        System.out.println("Result : "+result2);
 
     }
 
